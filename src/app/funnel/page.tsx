@@ -375,7 +375,7 @@ export default function FunnelPage() {
                         <div className="flex items-center gap-3">
                           <AlertTriangle className="w-6 h-6 text-danger" />
                           <div>
-                            <p className="font-bold text-danger">Ton goulet identifié</p>
+                            <p className="font-bold text-danger">Ton goulot identifié</p>
                             <p className="text-sm text-primary/60">
                               {goulet?.name || "À déterminer"}
                             </p>

@@ -73,7 +73,7 @@ body {
   transform: scale(1.05);
 }
 
-.node-goulet {
+.node-goulot {
   border-color: var(--danger);
   animation: pulse-glow 2s ease-in-out infinite;
 }

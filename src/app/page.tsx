@@ -47,7 +47,7 @@ export default function Home() {
                 <Zap className="w-6 h-6 text-accent" />
               </div>
               <h3 className="font-semibold text-primary text-sm">Identifie</h3>
-              <p className="text-xs text-primary/60 mt-1">Ton goulet d&apos;étranglement</p>
+              <p className="text-xs text-primary/60 mt-1">Ton goulot d&apos;étranglement</p>
             </div>
             <div className="flex flex-col items-center p-4">
               <div className="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center mb-3">

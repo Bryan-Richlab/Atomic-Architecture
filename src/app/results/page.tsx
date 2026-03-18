@@ -74,7 +74,7 @@ export default function ResultsPage() {
           <div className="min-w-[800px]">
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               {auditData.funnelSteps.map((step, index) => {
-                const isGoulet = step.id === auditData.gouletId;
+                const isGoulot = step.id === auditData.gouletId;
                 return (
                   <motion.div
                     key={step.id}
@@ -86,7 +86,7 @@ export default function ResultsPage() {
                     <div
                       className={`
                         node-circle w-32 h-32 rounded-full flex flex-col items-center justify-center text-center
-                        ${isGoulet ? "node-goulet" : ""}
+                        ${isGoulot ? "node-goulot" : ""}
                       `}
                     >
                       <span className="text-[10px] text-secondary uppercase mb-1">
@@ -208,7 +208,7 @@ export default function ResultsPage() {
               <span className="font-bold text-accent text-xl">990€</span>.
             </p>
             <p className="text-sm text-primary/60 mb-8">
-              On corrige <strong>TON</strong> goulet d&apos;étranglement en 1ère session.
+              On corrige <strong>TON</strong> goulot d&apos;étranglement en 1ère session.
               <br />
               Pas de générique, que du sur-mesure.
             </p>
