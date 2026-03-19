@@ -100,9 +100,9 @@ export default function ResultsPage() {
                           {step.hoursPerWeek}h/sem
                         </span>
                       )}
-                      {isGoulet && (
+                      {isGoulot && (
                         <span className="absolute -top-2 -right-2 bg-danger text-white text-[8px] font-bold px-2 py-0.5 rounded-full">
-                          GOULET
+                          GOULOT
                         </span>
                       )}
                     </div>
